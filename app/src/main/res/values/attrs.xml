@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="topbar">
+        <!--左按钮属性-->
+        <attr name="leftButtonText" format="string"/>
+        <attr name="leftButtonTextSize" format="float"/>
+        <attr name="leftButtonTextColor" format="color"/>
+        <attr name="leftButtonBackground" format="color|reference"/>
+
+        <!--右按钮属性-->
+        <attr name="rightButtonText" format="string"/>
+        <attr name="rightButtonTextSize" format="float"/>
+        <attr name="rightButtonTextColor" format="color"/>
+        <attr name="rightButtonBackground" format="color|reference"/>
+
+        <!--标题属性-->
+        <attr name="titleText" format="string"/>
+        <attr name="titleTextSize" format="float"/>
+        <attr name="titleTextColor" format="color"/>
+        <attr name="titleBackground" format="color|reference"/>
+
+    </declare-styleable>
+</resources>
